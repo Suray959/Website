@@ -1,0 +1,48 @@
+header{ display: flex;
+justify-content: start;
+
+} 
+
+div.basliq{
+    background-color: #4aaaa5;
+    color:aliceblue ;
+    width: 30px;
+    padding: 40px;
+    margin:50px;
+    }
+    h1{
+ display: flex;
+   justify-content: center;
+    }
+.back{
+       width: 100%;
+       position: absolute;
+       left: 0px;
+       top: 0px;
+       z-index: -1;
+    }
+   nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    font-size:18px;
+    list-style: none;
+
+   } 
+   nav{ display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 900px;
+    padding: 10px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+
+   }
+  .name a{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+
+
+   
