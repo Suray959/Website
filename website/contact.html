@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
+    <head><title>About me></title>
+        <link rel="stylesheet" href="https://libs.cdnjs.net/font-awesome/6.5.1/css/all.css">
+    </head>
 <body>
+
 <style>
 
 header{ display: flex;
@@ -25,6 +29,7 @@ nav ul{
     
 body{ margin:5px;
       padding: 20px;
+      height: 300px;
       background-color: #c9c4c4f9;
 }
 a {
@@ -41,16 +46,18 @@ a {
         height: 300px;
 
 }
-div{
-    width:500px;
-    padding: 60px;
-    margin-left: 40px;
-    float: left;
+.contact{background-color: rgb(241, 237, 237);
+     color: #080707;
+     width: 140px;
+     height: 100px;
+     padding: 60px;
+     margin: 30px;
+    display: flex;
+    flex-direction: column;
 }
-
-footer{
-    background-color: rgba(128, 128, 128, 0.976);
-    justify-content: end;
+.icon{
+    display: flex;
+    flex-direction: row;
 }
  p{
       margin: 40px;
@@ -58,10 +65,26 @@ footer{
      color: #ffffff;
      padding: 30px
 }
+footer{
+    background-color: rgba(163, 163, 163, 0.983);
+    padding: 40px;
+    text-align: center;
+   }
+.esas{
+    display: flex;
+    justify-content: space-between;
+}
+.input{ background-color: #ffffff;
+     padding: 60px;
+     margin: 30px;
+
+}
+
      
 </style>
 
 <header> <h2>Your Name</h2>
+    
     <nav class="name">
         <ul>
             <li><a href="./about.html">About</a></li>
@@ -74,32 +97,53 @@ footer{
 <main>
 
 
-<div>
-    <label for="Name">Name</label>
-    <input id="Name" type="text">
-    <br>
-    <br>
-      <label for="email">Email</label>
-    <input id="email" type="email">
-    <br>
-    <br>
+   
+   <div class="esas">
+
+<div class="input">
+        <label for="email">Email</label><br>
+        <input id="email" type="email">
+        <br>
+        <br>
+        <label for="Name">Name</label>
+        <input id="Name" type="text"><br><br>
     
         <label  >Message</label>
         <input class="message"  id="Message" type="Message">
     
-    <br>
-    <br>
-    
-    <input class="submit"  type="submit" value="Submit">
-     
-    <footer>
-        <p>
-            © Copyright 2016 Your Name
-        </p>
+        <br>
+        <br>
         
-        </footer> 
-</div>
+        <input class="submit"  type="submit" value="Submit">
+        </div>
+
+<div class="contact">
+            <h2>Contact me</h2>
+        <div class="icon">
+            <i class="fa-solid fa-cat"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+    </div>
+        </div> 
+   </div>
+   
+   
+   
+
+
+   
+    
+    
+    
+
+
     </main>
+
+    <footer>
+            © Copyright 2016 Your Name
+    
+        </footer>
+   
 </body>
     
 

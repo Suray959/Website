@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+    <head><title>About me></title>
+        <link rel="stylesheet" href="https://libs.cdnjs.net/font-awesome/6.5.1/css/all.css">
+    </head>
     <body>
 <style>
 
@@ -24,17 +27,11 @@ nav ul{
   }
 
             
-main{ 
+main{  display: flex;
+    justify-content: space-around;
     background-color: #d0cccc;
-    padding: 100px;;
-               
-}    
-div{      
-          background-color:#ffffff;
-          padding: 6px;
-          margin-right: 20px;
-        
-}  
+   
+}     
 
 h2  {
                 background-color:  #4aaaa5;
@@ -45,24 +42,51 @@ h2  {
                float: left;
                 }
 .cat{ 
-    max-width: 150px;
+    max-width: 200px;
     border-radius: 20px;
-    float:left ;
+     float: left;
 
 }
 
+ .esas{ background-color: rgb(250, 244, 244);
+     color: #080707;
+     width: 400px;
+     padding: 20px;
+     margin: 15px;
+     float: inline-start;
+}
+
+.class{ background-color: rgb(248, 245, 245);
+      margin: 60px;
+     text-align: center;
+     padding: 50px;
+}
 footer{
     background-color: rgba(128, 128, 128, 0.976);
+    padding: 40px;
+    text-align: center;}
+.text{
+        font-family: 'Times New Roman', Times, serif;
+
 }
- p{
-      margin: 40px;
-     text-align: center;
-     color: #ffffff;
-     padding: 30px
+.about{
+    padding: 10px;
+    margin:9px;
 }
-
-
-
+.contact{  background-color: rgb(241, 237, 237);
+     color: #080707;
+     width: 140px;
+     height: 100px;
+     padding: 60px;
+     margin: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.end{
+    display: flex;
+    flex-direction: column;
+}
 </style>
         
         <header> <h2>Your Name</h2>
@@ -75,31 +99,41 @@ footer{
             </nav>
         </header>
         <main>
-    <h2 class="about"> About me </h2>
+    
      
 
    <div class="esas">
-
-    <article>
-       <img  class="cat"  src="https://d1hjkbq40fs2x4.cloudfront.net/2016-07-16/files/cat-sample_1313.jpg" >
-        
-       <p class="text">The cat (Felis catus), commonly referred to as the domestic cat or house cat, is the only domesticated species inthe family Felidae. 
-            Recent advances in archaeology and genetics have shown that the domestication of the cat occurred in the Near East around 7500 BC. It is commonly kept as a house pet and farm cat,
-             but also ranges freely as a feral cat avoiding human contact. 
-            It is valued by humans for companionship and its ability to kill vermin. 
-            Because of its retractable claws, it is adapted to killing small prey like mice and rats. 
-            It has a strong, flexible body, quick reflexes, sharp teeth,
-             and its night vision and sense of smell are well developed.</p>
-    </article>
-   </div>     
+        <div class="end">
+            <h2 class="about"> About me </h2>
+            <img  class="cat"  src="https://d1hjkbq40fs2x4.cloudfront.net/2016-07-16/files/cat-sample_1313.jpg" >
+             
+            <p class="text">The cat (Felis catus), commonly referred to as the domestic cat or house cat, is the only domesticated species inthe family Felidae. 
+                 Recent advances in archaeology and genetics have shown that the domestication of the cat occurred in the Near East around 7500 BC. It is commonly kept as a house pet and farm cat,
+                  but also ranges freely as a feral cat avoiding human contact. 
+                 It is valued by humans for companionship and its ability to kill vermin. 
+                 Because of its retractable claws, it is adapted to killing small prey like mice and rats. 
+                 It has a strong, flexible body, quick reflexes, sharp teeth,
+                  and its night vision and sense of smell are well developed.</p>
+                </div>
+   </div>  
+   
+   
+   <div class="contact">
+    <h2>Contact me</h2>
+    <div class="icon">
+        <i class="fa-solid fa-cat"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+    </div>
+    
+    </div> 
 
 </main>
         
 <footer>
-    <p>
+
         © Copyright 2016 Your Name
-    </p>
-    
+
     </footer>
 </body>
         </html>
